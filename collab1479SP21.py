@@ -157,7 +157,14 @@ def smileyFib(numberOfTimes):
 
     print()
     print()
-# modifying the code by laxmi subba
+# *****************************************************************************************
+# FUNCTION:        SubbaFunction
+# DESCRIPTION:      callsSubbaFib with a parameter of 11
+#                   prints the Fibonacci series as defined by the input value
+# OUTPUT EXAMPLE:   User enters 11
+#                   Program outputs the following:
+#                      Fibonacci Sequence (9 iterations): 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+# *****************************************************************************************
 def subbaFunction():
     totalgrade = 0
     count = 0
