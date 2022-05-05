@@ -36,7 +36,7 @@ def main():
     jumpTable['9'] = stub                 # Overby - call to function goes here
     jumpTable['10'] = stub                # Robarge - call to function goes here
     jumpTable['11'] = stub                # Roeper - call to function goes here
-    jumpTable['12'] = stub                # Subba - call to function goes here
+    jumpTable['12'] = subbaFunction              # Subba - call to function goes here
     jumpTable['13'] = stub                # Thorne - call to function goes here
     jumpTable['14'] = stub                # Thurman - call to function goes here
     jumpTable['15'] = stub                # Valdez - call to function goes here
@@ -157,6 +157,38 @@ def smileyFib(numberOfTimes):
 
     print()
     print()
+# modifying the code by laxmi subba
+def subbaFunction():
+    totalgrade = 0
+    count = 0
+
+grade=int(input("Enter your grade here or enter -1 to stop: "))
+
+while grade != -1:
+    if grade >= 0 and grade <= 100:
+        count += 1
+        totalgrade += grade
+
+        if grade >= 90:
+            print("A")
+        elif grade >= 80:
+            print("B")
+        elif grade >= 70:
+            print("C")
+        elif grade >= 60:
+            print("D")
+        else:
+            print("F")
+    else:     
+        print("Please entere a number between 0 and 100.")
+        
+    grade=int(input("Enter your grade here or enter -1 to stop: "))
+
+print("Thank you.  The average of all entered grades, excluding errors was:", totalgrade/count)
+
+
+
+
 
 #*****************************************************************
 # Please leave me alone,
